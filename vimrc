@@ -23,3 +23,5 @@ filetype plugin indent on
 syntax on
 
 colorscheme blackboard
+
+let g:SuperTabDefaultCompletionType = "context"
