@@ -14,7 +14,7 @@ set incsearch
 set ignorecase
 set smartcase
 set autoread
-set clipboard+=unnamed
+set undofile
 
 filetype on
 
@@ -23,3 +23,4 @@ syntax on
 colorscheme blackboard
 
 autocmd BufNewFile,BufRead *.jsm setfiletype javascript
+autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2
