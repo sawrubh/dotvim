@@ -15,12 +15,15 @@ set ignorecase
 set smartcase
 set autoread
 set undofile
+set showmode
 
 filetype on
 
 syntax on
 
-colorscheme blackboard
+colorscheme blackboard 
 
 autocmd BufNewFile,BufRead *.jsm setfiletype javascript
 autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2
+autocmd FileType cpp setlocal expandtab shiftwidth=4 softtabstop=4
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
